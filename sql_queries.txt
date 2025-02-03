@@ -1,0 +1,50 @@
+2024-Oct-20-14:52:51 : SELECT * from Largest_banks
+                                       Name MC_USD_Billions  MC_EUR_Billions  MC_GBP_Billions  MC_INR_Billions
+0   Industrial and Commercial Bank of China        6,303.44          5862.20          5042.75        522870.35
+1                Agricultural Bank of China        5,623.12          5229.50          4498.50        466437.80
+2                   China Construction Bank        5,400.28          5022.26          4320.22        447953.23
+3                             Bank of China        4,578.28          4257.80          3662.62        379768.33
+4                            JPMorgan Chase        3,875.39          3604.11          3100.31        321463.60
+..                                      ...             ...              ...              ...              ...
+95                            Handelsbanken          351.79           327.16           281.43         29180.98
+96                 Industrial Bank of Korea          345.81           321.60           276.65         28684.94
+97                                      DNB          339.21           315.47           271.37         28137.47
+98                      Qatar National Bank          338.14           314.47           270.51         28048.71
+99                                 VTB Bank          326.85           303.97           261.48         27112.21
+
+[100 rows x 5 columns]
+2024-Oct-20-14:52:51 : SELECT AVG(MC_GBP_Billions) FROM Largest_banks
+   AVG(MC_GBP_Billions)
+0              942.3912
+2024-Oct-20-14:52:51 : SELECT Name from Largest_banks LIMIT 5
+                                      Name
+0  Industrial and Commercial Bank of China
+1               Agricultural Bank of China
+2                  China Construction Bank
+3                            Bank of China
+4                           JPMorgan Chase
+2024-Oct-20-15:16:59 : SELECT * from Largest_banks
+                                       Name MC_USD_Billions  MC_EUR_Billions  MC_GBP_Billions  MC_INR_Billions
+0   Industrial and Commercial Bank of China        6,303.44          5862.20          5042.75        522870.35
+1                Agricultural Bank of China        5,623.12          5229.50          4498.50        466437.80
+2                   China Construction Bank        5,400.28          5022.26          4320.22        447953.23
+3                             Bank of China        4,578.28          4257.80          3662.62        379768.33
+4                            JPMorgan Chase        3,875.39          3604.11          3100.31        321463.60
+..                                      ...             ...              ...              ...              ...
+95                            Handelsbanken          351.79           327.16           281.43         29180.98
+96                 Industrial Bank of Korea          345.81           321.60           276.65         28684.94
+97                                      DNB          339.21           315.47           271.37         28137.47
+98                      Qatar National Bank          338.14           314.47           270.51         28048.71
+99                                 VTB Bank          326.85           303.97           261.48         27112.21
+
+[100 rows x 5 columns]
+2024-Oct-20-15:16:59 : SELECT AVG(MC_GBP_Billions) FROM Largest_banks
+   AVG(MC_GBP_Billions)
+0              942.3912
+2024-Oct-20-15:16:59 : SELECT Name from Largest_banks LIMIT 5
+                                      Name
+0  Industrial and Commercial Bank of China
+1               Agricultural Bank of China
+2                  China Construction Bank
+3                            Bank of China
+4                           JPMorgan Chase
